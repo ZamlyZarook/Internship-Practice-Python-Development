@@ -1,122 +1,155 @@
-name = input("Enter Your name: ")
-age = input("Enter your age: ")
-school = None
+# name = input("Enter Your name: ")
+# age = input("Enter your age: ")
+# school = None
 
-print(f"Name is {name} , Age is {age} , my school is {school}")
+# print(f"Name is {name} , Age is {age} , my school is {school}")
 
-print("Name is ", name, " age is " , age)
+# print("Name is ", name, " age is " , age)
 
-# srting concaternation
+# # srting concaternation
 
-print("Name is " + name + " my age is " + age)
+# print("Name is " + name + " my age is " + age)
 
-print(type(age))
-
-
-s= "zamly"
-
-print("z" in s)
-print("aml" in s)
-print("zmy" in s)
-
-message = "Im Going Out"
-print(message.upper())
-print(message.lower())
-print(message.__len__())
-print(message.count('i'))
-print(message.find('Out'))
-
-new_message = message.replace("Out", " to the cinema")
-print(new_message)
-
-greeting = "Hello"
-name = "Michell"
-
-msg = greeting + ', ' + name + ". Welcome!"
-msg = "{}, {}. Welcome!".format(greeting, name)
-
-print(help(str.lower))
+# print(type(age))
 
 
-print(3//2)
+# s= "zamly"
+
+# print("z" in s)
+# print("aml" in s)
+# print("zmy" in s)
+
+# message = "Im Going Out"
+# print(message.upper())
+# print(message.lower())
+# print(message.__len__())
+# print(message.count('i'))
+# print(message.find('Out'))
+
+# new_message = message.replace("Out", " to the cinema")
+# print(new_message)
+
+# greeting = "Hello"
+# name = "Michell"
+
+# msg = greeting + ', ' + name + ". Welcome!"
+# msg = "{}, {}. Welcome!".format(greeting, name)
+
+# print(help(str.lower))
 
 
-arr = ['zam', 'zai', 'zar', 'naj']
-
-arr.insert(2,'naf')
-
-for item in arr:
-    print(item)
-
-print()
-
-for ind , item in enumerate(arr, start=1):
-    print(ind, item)
+# print(3//2)
 
 
-# sets
+# arr = ['zam', 'zai', 'zar', 'naj']
 
-set1 = {'a', 'e', 'i', 'o'}
-set2 = {'z', 'a', 'm', 'e'}
+# arr.insert(2,'naf')
 
-print(set1.union(set2))
+# for item in arr:
+#     print(item)
 
+# print()
 
-# Dictionary
-
-student = {'name': 'zamly', 'age': 26, 'subject': ['math', 'IT']}
-
-print(student['name'])
+# for ind , item in enumerate(arr, start=1):
+#     print(ind, item)
 
 
-print(student.get('phone', 'Notfound'))
+# # sets
 
-student['phone'] = '555-55555'
+# set1 = {'a', 'e', 'i', 'o'}
+# set2 = {'z', 'a', 'm', 'e'}
 
-print(student.get('phone', 'Notfound'))
-
-# Multiple value Updates
-
-student.update({'name': "jane", "phone": "555-34342"})
-
-print(student)
-
-# del student['age']
-age = student.pop('age')
-
-print(student)
-print(age)
-
-print(student.items())
-
-for k in student:
-    print(k)
-
-for k, val in student.items():
-    print(k, val)
+# print(set1.union(set2))
 
 
-# Conditions 
+# # Dictionary
 
-user = "admin"
-logged_in = False
+# student = {'name': 'zamly', 'age': 26, 'subject': ['math', 'IT']}
 
-if user == "admin" and logged_in:
-    print("Welcome")
-elif user == "admin" and not logged_in:
-    print("pls logging")
-else:
-    print("Bad cred")
+# print(student['name'])
 
-a = [1,2,3]
-b =a
-b = [1,2,3]
 
-print(id(a))
-print(id(b))
+# print(student.get('phone', 'Notfound'))
 
-print(a == b)
-print(a is b)
+# student['phone'] = '555-55555'
+
+# print(student.get('phone', 'Notfound'))
+
+# # Multiple value Updates
+
+# student.update({'name': "jane", "phone": "555-34342"})
+
+# print(student)
+
+# # del student['age']
+# age = student.pop('age')
+
+# print(student)
+# print(age)
+
+# print(student.items())
+
+# for k in student:
+#     print(k)
+
+# for k, val in student.items():
+#     print(k, val)
+
+
+# # Conditions 
+
+# user = "admin"
+# logged_in = False
+
+# if user == "admin" and logged_in:
+#     print("Welcome")
+# elif user == "admin" and not logged_in:
+#     print("pls logging")
+# else:
+#     print("Bad cred")
+
+# a = [1,2,3]
+# b =a
+# b = [1,2,3]
+
+# print(id(a))
+# print(id(b))
+
+# print(a == b)
+# print(a is b)
+
+
+# --------------------------------------------------------------------------------------
+
+nums = [61, 42, 32, 43, 35]
+
+# for i in nums:
+#     if i == 3:
+#         print("fund 3")
+#         continue
+#     print(i)
+
+# for i in range (1,11):
+#     print(issubclass)
+
+# x = 0
+
+# while x < nums.__len__() :
+#     print(nums[x]) 
+#     x += 1
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
