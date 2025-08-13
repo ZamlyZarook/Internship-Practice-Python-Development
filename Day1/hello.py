@@ -108,35 +108,35 @@
 # else:
 #     print("Bad cred")
 
-# a = [1,2,3]
-# b =a
-# b = [1,2,3]
+a = [1,2,3]
+b =a
+b = [1,2,3]
 
-# print(id(a))
-# print(id(b))
+print(id(a))
+print(id(b))
 
-# print(a == b)
-# print(a is b)
+print(a == b)
+print(a is b)
 
 
 # --------------------------------------------------------------------------------------
 
 nums = [61, 42, 32, 43, 35]
 
-# for i in nums:
-#     if i == 3:
-#         print("fund 3")
-#         continue
-#     print(i)
+for i in nums:
+    if i == 3:
+        print("fund 3")
+        continue
+    print(i)
 
-# for i in range (1,11):
-#     print(issubclass)
+for i in range (1,11):
+    print(issubclass)
 
-# x = 0
+x = 0
 
-# while x < nums.__len__() :
-#     print(nums[x]) 
-#     x += 1
+while x < nums.__len__() :
+    print(nums[x]) 
+    x += 1
 
 
 
